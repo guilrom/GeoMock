@@ -1,0 +1,16 @@
+{
+  "name": "GeoMock",
+  "main": "geomock.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/htmlfusion/GeoMock",
+  "authors": [
+    "Jan Monschke"
+  ],
+  "description": "Mocks the navigator.geolocation in the browser so you don't have to move around when testing your gps-enabled",
+  "keywords": [
+    "geolocation",
+    "mocking",
+    "testing"
+  ],
+  "license": "MIT"
+}
