@@ -20,6 +20,7 @@
   <script type="text/javascript" src="geomock.js"></script>
   <script type="text/javascript">
     window.onload = function(){
+      GeoMock.install();
       var latlng = new google.maps.LatLng(navigator.geolocation.waypoints[0].coords.latitude, navigator.geolocation.waypoints[0].coords.longitude);
       var myOptions = {
         zoom: 18,
